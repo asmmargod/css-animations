@@ -1,0 +1,21 @@
+.logo {
+  width: 4.5rem;
+  height: 4.5rem;
+  box-shadow: 0.5rem 0.5rem 2rem rgba($color: #000000, $alpha: 1);
+}
+.navigation {
+  color: wheat;
+  background-image: linear-gradient(90deg, rgb(1, 68, 1), rgb(83, 48, 1));
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__items {
+  margin-right: 2rem;
+}
+
+.nav__logo {
+  margin-left: 2rem;
+}

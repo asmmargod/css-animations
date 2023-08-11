@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat";
+  font-size: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 10%;
+}
+
+@-webkit-keyframes AnimateBack {
+  0% {
+    background-position: 86% 0%;
+  }
+  50% {
+    background-position: 15% 100%;
+  }
+  100% {
+    background-position: 86% 0%;
+  }
+}
+@-moz-keyframes AnimateBack {
+  0% {
+    background-position: 86% 0%;
+  }
+  50% {
+    background-position: 15% 100%;
+  }
+  100% {
+    background-position: 86% 0%;
+  }
+}
+@keyframes AnimateBack {
+  0% {
+    background-position: 86% 0%;
+  }
+  50% {
+    background-position: 15% 100%;
+  }
+  100% {
+    background-position: 86% 0%;
+  }
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 91% 0%;
+  }
+  50% {
+    background-position: 10% 100%;
+  }
+  100% {
+    background-position: 91% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 91% 0%;
+  }
+  50% {
+    background-position: 10% 100%;
+  }
+  100% {
+    background-position: 91% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 91% 0%;
+  }
+  50% {
+    background-position: 10% 100%;
+  }
+  100% {
+    background-position: 91% 0%;
+  }
+}
